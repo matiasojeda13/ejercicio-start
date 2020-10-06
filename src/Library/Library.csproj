@@ -3,5 +3,9 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LibraryTw\LibraryTw.csproj" />
+    <ProjectReference Include="..\LibraryCognitiveApi\Library.csproj" />
+  </ItemGroup>
 
 </Project>
