@@ -19,7 +19,7 @@ namespace RideShare
 
         public void Add(Person persona)
         {
-            twitter.PublishToTwitter($"{persona.Name} {persona.LastName}",persona.Photo);
+            twitter.PublishToTwitter($"{persona.Name} {persona.LastName}",persona.UrlPhoto);
         }
 
 
