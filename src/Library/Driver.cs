@@ -8,7 +8,7 @@ namespace RideShare
         {
         }
 
-        public bool HasCar { get; set;}
+        public string Car { get; set;}
         public string CalificationAsDriver { get; set; }
         public string Bio {get; set;}
     }
