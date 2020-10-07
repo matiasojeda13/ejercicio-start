@@ -4,7 +4,7 @@ namespace RideShare
 {
     public class Driver : Person
     {
-        public Driver (string name, string lastName,int ci) : base (name, lastName, ci)
+        public Driver (string name, string lastName,int ci, string urlPhoto) : base (name, lastName, ci, urlPhoto)
         {
         }
 
