@@ -2,7 +2,7 @@ using System;
 
 namespace RideShare
 {
-    public class Person
+    public abstract class Person
     {
         public string Name{get;set;}
         public string LastName{get;set;}
@@ -16,5 +16,6 @@ namespace RideShare
             this.Ci=ci;
             this.UrlPhoto=urlPhoto;
         }
+        public abstract String Publish();
     }
 }
