@@ -38,11 +38,13 @@ namespace PII_Herencia
             */
 
 
-            Passenger passenger1 = new Passenger("Matias", "Ojeda", 12345678, "C:\\Users\\Administrador\\Documents\\GitHub\\ejercicio-start\\Assets\\stephen copy.jpg"); 
-            Driver driver1 = new Driver("Bruno", "Villero", 12345678, "C:\\Users\\Administrador\\Documents\\GitHub\\ejercicio-start\\Assets\\tiro al blanco toy story.jpg");
+            Passenger passenger1 = new Passenger("Matias", "Ojeda", 12345678, "..\\Fotos\\seria.jpg"); 
+            Passenger passenger2 = new Passenger("Matias", "Ojeda", 12345678, "..\\Fotos\\auto.jpg"); 
+            Driver driver1 = new Driver("Bruno", "Villero", 12345678, "..\\Fotos\\sonrisa.jpg");
             UcuRideShare rideshare1 = new UcuRideShare();
             rideshare1.Add(passenger1);
             rideshare1.Add(driver1);
+            rideshare1.Add(passenger2);
         }
     }
 }
