@@ -7,8 +7,6 @@ namespace RideShare
         public string Name{get;set;}
         public string LastName{get;set;}
         public int Ci{get;set;}
-        public string Photo{get;set;}
-
         public string UrlPhoto{get;set;}
 
         public Person (string name, string lastName,int ci,string urlPhoto)
