@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using RideShare;
 
 namespace PII_Herencia
 {
@@ -35,6 +36,13 @@ namespace PII_Herencia
             Se publica en Twitter nuevo registro de pasajero!
 
             */
+
+
+            Passenger passenger1 = new Passenger("Matias", "Ojeda", 12345678, "C:\\Users\\Administrador\\Documents\\GitHub\\ejercicio-start\\Assets\\stephen copy.jpg"); 
+            Driver driver1 = new Driver("Bruno", "Villero", 12345678, "C:\\Users\\Administrador\\Documents\\GitHub\\ejercicio-start\\Assets\\tiro al blanco toy story.jpg");
+            UcuRideShare rideshare1 = new UcuRideShare();
+            rideshare1.AddPassenger(passenger1);
+            rideshare1.AddDriver(driver1);
         }
     }
 }
