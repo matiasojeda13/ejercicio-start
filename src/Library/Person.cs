@@ -9,11 +9,14 @@ namespace RideShare
         public int Ci{get;set;}
         public string Photo{get;set;}
 
-        public Person (string name, string lastName,int ci)
+        public string UrlPhoto{get;set;}
+
+        public Person (string name, string lastName,int ci,string urlPhoto)
         {
             this.Name=name;
             this.LastName=lastName;
             this.Ci=ci;
+            this.UrlPhoto=urlPhoto;
         }
 
     }
