@@ -18,6 +18,7 @@ namespace RideShare
         public override bool GoodPhoto()
         {
             CognitiveFace cog = new CognitiveFace("620e818a46524ceb92628cde08068242",false);
+            cog.Recognize(this.UrlPhoto);
             if (cog.FaceFound)
             {
                return true;
