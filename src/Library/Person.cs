@@ -17,5 +17,6 @@ namespace RideShare
             this.UrlPhoto=urlPhoto;
         }
         public abstract String Publish();
+        public abstract bool GoodPhoto();
     }
 }

@@ -1,5 +1,5 @@
 using System;
-
+using CognitiveCoreUCU;
 namespace RideShare
 {
     public class Driver : Person
@@ -15,6 +15,25 @@ namespace RideShare
         public override string Publish()
         {
            return ($"Welcome new Driver {this.Name} {this.LastName}") ;
+        }
+        public override bool GoodPhoto()
+        {
+            CognitiveFace cog = new CognitiveFace("620e818a46524ceb92628cde08068242",false);
+            if (cog.FaceFound)
+            {
+               if(cog.SmileFound)
+               {
+                   return true;
+               }
+               else
+               {
+                   return false;
+               }
+            }
+            else
+            {
+               return false;
+            }
         }
     }
 }

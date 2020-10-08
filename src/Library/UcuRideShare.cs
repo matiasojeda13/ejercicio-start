@@ -21,8 +21,12 @@ namespace RideShare
 
         public void Add(Person person)
         {
-            persons.Add(person);
-            twitter.PublishToTwitter(person.Publish(),person.UrlPhoto);
+            if (person.GoodPhoto())
+            {
+                persons.Add(person);
+                twitter.PublishToTwitter(person.Publish(),person.UrlPhoto);
+            }
+                
         }
 
         
