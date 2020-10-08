@@ -37,7 +37,6 @@ namespace PII_Herencia
 
             */
 
-
             Passenger passenger1 = new Passenger("Matias", "Ojeda", 12345678, "..\\..\\Fotos\\seria.jpg"); 
             Passenger passenger2 = new Passenger("Matias", "Ojeda", 12345678, "..\\..\\Fotos\\auto.jpeg"); 
             Driver driver1 = new Driver("Bruno", "Villero", 12345678, "..\\..\\Fotos\\sonrisa.jpg");
