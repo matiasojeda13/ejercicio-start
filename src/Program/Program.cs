@@ -41,10 +41,13 @@ namespace PII_Herencia
             Passenger passenger1 = new Passenger("Matias", "Ojeda", 12345678, "..\\..\\Fotos\\seria.jpg"); 
             Passenger passenger2 = new Passenger("Matias", "Ojeda", 12345678, "..\\..\\Fotos\\auto.jpeg"); 
             Driver driver1 = new Driver("Bruno", "Villero", 12345678, "..\\..\\Fotos\\sonrisa.jpg");
+
             UcuRideShare rideshare1 = new UcuRideShare();
+            
             Console.WriteLine(passenger1.GoodPhoto().ToString());
             Console.WriteLine(passenger2.GoodPhoto().ToString());
             Console.WriteLine(driver1.GoodPhoto().ToString());
+
             rideshare1.Add(passenger1);
             rideshare1.Add(driver1);
             rideshare1.Add(passenger2);
