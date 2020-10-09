@@ -4,6 +4,13 @@ using System.Collections.Generic;
 
 namespace RideShare
 {
+    /*En esta clase usamos el patrón polymorphism para registrar personas al sistema. Consideramos 
+    como persona (clase Person) tanto a un chofer que lleva solo a un pasajero (clase Driver) 
+    como a un chofer con más de un pasajero (PoolDriver) y también al pasajero (clase Passenger).
+    Cada objeto persona tiene definido una operación que es GoodPhoto para verificar que la imagen es válida
+    y una operación Publish para saber qué mensaje publicar.
+    */
+
     public class UcuRideShare
     {
         private List<Person> persons; 

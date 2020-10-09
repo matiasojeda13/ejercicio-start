@@ -37,9 +37,9 @@ namespace PII_Herencia
 
             */
 
-            Passenger passenger1 = new Passenger("Matias", "Ojeda", 12345678, "..\\..\\Fotos\\seria.jpg"); 
-            Passenger passenger2 = new Passenger("Matias", "Ojeda", 12345678, "..\\..\\Fotos\\auto.jpeg"); 
-            Driver driver1 = new Driver("Bruno", "Villero", 12345678, "..\\..\\Fotos\\sonrisa.jpg");
+            Person passenger1 = new Passenger("Matias", "Ojeda", 12345678, "..\\..\\Fotos\\seria.jpg"); 
+            Person passenger2 = new Passenger("Matias", "Ojeda", 12345678, "..\\..\\Fotos\\auto.jpeg"); 
+            Person driver1 = new Driver("Bruno", "Villero", 12345678, "..\\..\\Fotos\\sonrisa.jpg");
 
             UcuRideShare rideshare1 = new UcuRideShare();
             

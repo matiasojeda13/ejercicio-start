@@ -2,6 +2,14 @@ using System;
 
 namespace RideShare
 {
+    /* La clase Person es la clase base de Passenger y Driver. La usamos para aplicar herencia,
+    para poder reutilizar el código que esta clase contiene y además poder aplicar el principio OCP 
+    a fin de extender el código y tener las clases cerradas a las modificaciones.   
+    También aplicamos el principio LSP que si sustituimos una instancia del objeto passenger 
+    por una de un subtipo de Person, el programa sigue funcionando como debe, registrando a 
+    los usuarios en el sistema.
+    */
+
     public abstract class Person
     {
         public string Name{get;set;}
